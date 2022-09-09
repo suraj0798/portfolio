@@ -1,4 +1,44 @@
+/* ______________
+                 reset
+                       __________ */
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}                       
+a {text-decoration: none;}
 
+li{list-style: none;}
+
+img, ion-icon, a, button, time, span {display: block;}
+
+button{
+    font: inherit;
+    background: none;
+    border: none;
+    text-align: left;
+    cursor: pointer;
+}
+
+input, textarea{
+    display: block;
+    width: 100%;
+    background: none;
+    font: inherit;
+}
+
+::selection {
+    background: ;
+    color: ;
+}
+
+:focus{
+    outline-color: ;
+}
+
+html {font-family: ;}
+
+body {background: ;}
 
 .main{
     margin: 15px 12px;
