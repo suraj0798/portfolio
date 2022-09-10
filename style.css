@@ -47,7 +47,7 @@ body {background: ;}
 }
 .sidebar,
 article{
-    background-color: #00ABE1;
+    background-color: #4a5fc1;
     border: 1px solid #fff;
     border-radius: 20px;
     padding: 15px;
@@ -83,7 +83,7 @@ article{
     width: max-content;
     padding: 3px 12px;
     border-radius: 8px;
-    background-color: #4a5fc1;
+    background-color: #00abe1;
 }
 .info-content-btn{position: absolute;
     top: -15px;
@@ -91,9 +91,17 @@ article{
     border-radius: 0 15px;
     font-size: 13px;
     color: #fff;
-    background-color:#4a5fc1 ;
+    background-color:#00abe1;
     padding: 10px;
     z-index: 1;
     
     
+}
+.info-content-btn::before{
+    content: "";
+    position: absolute;
+    inset: 1px;
+    border-radius: inherit;
+    background: #00abe1;
+    z-index: -1;
 }
